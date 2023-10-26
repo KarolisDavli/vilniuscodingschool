@@ -1,0 +1,17 @@
+h2 {
+  color: white;
+  background-color: rgb(66, 191, 149);
+}
+
+ul {
+  background-color: bisque;
+}
+
+.special-one {
+  color: red;
+  background-color: black;
+}
+
+.blue-list {
+  background-color: blueviolet;
+}
