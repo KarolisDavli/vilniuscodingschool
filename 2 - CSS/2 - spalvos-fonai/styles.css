@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(196, 237, 237);
+}
+
+h1 {
+  background-color: darkcyan;
+  color: white;
+}
+
+.fonas-raudonas {
+  background-color: red;
+}
+
+.fonas-melynas {
+  background-color: blue;
+}
+
+#pirmas {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#antras {
+  background-color: beige;
+}
+
+#antras h2 {
+  background-color: cadetblue;
+  color: white;
+}
+
+#trecias-blokas {
+  background-color: lightskyblue;
+}
+
+#trecias-blokas h2 {
+  background-color: black;
+  color: white;
+}
+
+#trecias-blokas p {
+  color: white;
+}
+
+#trecias-blokas a {
+  background-color: red;
+  color: white;
+}
+
+#ketvirtas {
+  background-image: url(img/traffic.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+#penktas {
+  background: url(img/city.jpg) top center fixed;
+}
+
+.foto-blokas {
+  background-color: beige;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.pirmas-foto {
+  background: url(img/city.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.antras-foto {
+  background: url(img/traffic.jpg) no-repeat center;
+  background-size: cover;
+}
