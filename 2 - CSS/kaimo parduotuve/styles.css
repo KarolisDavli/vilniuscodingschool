@@ -1,0 +1,19 @@
+body {
+  background-color: #cbcbcb;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.items {
+  max-width: 50%;
+}
