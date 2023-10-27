@@ -1,0 +1,27 @@
+body {
+  background: rgb(156, 206, 230);
+}
+
+.pirmas {
+  background: white;
+  width: 200px;
+}
+
+.antras {
+  background: azure;
+  width: 300px;
+  height: 200px;
+}
+
+.trecias {
+  background: wheat;
+  width: 50%;
+}
+
+.ketvirtas {
+  background-color: floralwhite;
+}
+
+ul#pirmas {
+  list-style-type: circle;
+}
