@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(#58f6ec, #fbeddd);
+  box-sizing: border-box;
+}
+
+#turinys {
+  width: 504px;
+  margin: 64px auto;
+  text-align: center;
+}
+
+#turinys div {
+  background-color: white;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+#turinys p {
+  margin: 1rem 0 2rem;
+}
+
+#turinys a {
+  padding: 0.5rem 1rem;
+  background: #fccb92;
+  text-decoration: none;
+  color: black;
+}
