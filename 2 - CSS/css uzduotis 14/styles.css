@@ -1,0 +1,51 @@
+body {
+  background-color: orange;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.just-columns {
+  display: flex;
+}
+
+.just-columns div {
+  width: 50%;
+}
+
+.three-columns {
+  background-color: red;
+  display: flex;
+}
+
+.three-columns div {
+  margin: 20px;
+  background-color: white;
+}
+
+.two-columns {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+
+.two-columns div {
+  background-color: white;
+  padding: 20px;
+  width: 30%;
+}
+
+.orange-columns {
+  display: flex;
+  background: red;
+  padding: 40px;
+  justify-content: space-between;
+}
+
+.bg {
+  background: orange;
+  margin: 20px;
+  padding: 20px;
+}
