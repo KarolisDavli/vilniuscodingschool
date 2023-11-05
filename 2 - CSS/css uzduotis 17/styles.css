@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#logo {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+nav {
+  background: rgb(38, 38, 38);
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* Hero */
+.hero {
+  background-color: rgb(35, 236, 125);
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero .box {
+  text-align: center;
+}
+
+.mygtukas {
+  text-decoration: none;
+  padding: 0.7rem 1.6rem;
+  border: 1px solid rgb(34, 34, 34);
+  display: inline-block;
+}
+
+.main {
+  color: white;
+  background-color: rgb(34, 34, 34);
+}
+
+.secondary {
+  color: rgb(34, 34, 34);
+}
+
+.sub-text {
+  background-color: aqua;
+  padding: 1rem;
+}
+
+/* Articles */
+.articles-bg {
+  background-color: antiquewhite;
+}
+
+.articles-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 243, 227);
+  padding: 1rem;
+  width: calc((100% - 8rem) / 3);
+}
+
+.article p {
+  display: inline-block;
+}
+
+footer {
+  background: rgb(38, 38, 38);
+  color: white;
+  padding: 1rem;
+}
+
+.footer-flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-links {
+  width: calc((100% - 2rem) / 3);
+}
+
+footer a {
+  color: aqua;
+}
