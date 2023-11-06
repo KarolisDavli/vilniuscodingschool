@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #d4f1e6;
+}
+
+h1 {
+  font-size: 3.25rem;
+  margin-top: 4rem;
+}
+
+.gallery {
+  margin: 4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.gallery img {
+  max-height: 380px;
+  width: auto;
+}
+
+.info {
+  background-color: white;
+  padding: 3rem;
+  display: flex;
+  gap: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 4rem;
+}
+
+.info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.info p {
+  line-height: 1.7;
+}
+
+.info img {
+  max-height: 500px;
+}
