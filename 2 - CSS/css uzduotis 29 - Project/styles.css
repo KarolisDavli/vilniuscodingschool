@@ -1,0 +1,459 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.containerFull {
+  width: 100%;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.allPadding {
+  padding: 66px 0 70px;
+}
+
+.contactPadding {
+  padding-top: 66px;
+}
+
+nav {
+  padding: 17px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .burger {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 0.5rem;
+  margin-left: 63px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.hero {
+  background: url("hero.jpg");
+  width: 100%;
+  height: 836px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 4.5rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.hero p {
+  color: white;
+}
+
+.hero a {
+  text-decoration: none;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 21px;
+  margin-top: 43px;
+}
+
+.btn {
+  padding: 1rem 2.3rem;
+  font-weight: 700;
+}
+
+.primary {
+  background-color: #eb5757;
+  color: white;
+}
+
+.secondary {
+  color: #eb5757;
+  background-color: white;
+}
+
+.disclaimer {
+  background-color: #eb5757;
+}
+
+.disclaimer p {
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* Artists */
+.subHeading {
+  max-width: 735px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.subHeading h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.subHeading .divider {
+  height: 5px;
+  width: 31px;
+  background-color: #eb5757;
+  margin: 1rem 0 2rem;
+}
+
+.subHeading p,
+.artist p {
+  color: #2222226e;
+}
+
+.artistGallery {
+  margin: 56px auto 0;
+  display: flex;
+  gap: 70px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1034px;
+}
+
+.artist {
+  max-width: 206px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 76px;
+}
+
+.artist h3 {
+  margin: 16px 0 8px;
+}
+
+/* Photo gallery */
+.bgGray {
+  background-color: #22222205;
+}
+
+.photoGallery {
+  margin: 56px auto 0;
+  display: flex;
+  gap: 23px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .photoItem {
+  height: 212px;
+} */
+
+/* Tickets */
+.tickets {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
+}
+
+.ticketItem {
+  width: 424px;
+  height: 375px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 11px 0px #8383831a;
+  padding-bottom: 38px;
+}
+
+.ticketHeading {
+  text-transform: uppercase;
+  border-bottom: 1px solid #2222220d;
+  font-size: 22px;
+  padding: 32px 0;
+  width: 100%;
+}
+
+.ticketItem p {
+  color: #22222280;
+  width: 285px;
+}
+
+.ticketItem .price {
+  color: #eb5757;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.ticketItem .price span {
+  color: black;
+}
+
+.ticketItem a {
+  text-decoration: none;
+  margin-top: 29px;
+}
+
+/* Location */
+.map {
+  background-image: url(map.png);
+  position: relative;
+  width: 1320px;
+  height: 443px;
+  margin-top: 43px;
+}
+
+.map img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -125%);
+}
+
+/* Contact */
+.row {
+  display: flex;
+  margin-top: 58px;
+  justify-content: space-between;
+}
+
+.contactHeader {
+  margin-bottom: 30px;
+}
+
+.contactHeader h5 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 22px;
+}
+
+.contactHeader p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #22222280;
+  width: 411px;
+}
+
+.formPadding {
+  padding: 113px 0 78px 58px;
+}
+
+.contactDetails {
+  margin-bottom: 30px;
+}
+
+.contactDetails .contact {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: #22222280;
+}
+
+.contactDetails .contact span {
+  font-weight: 700;
+}
+
+form {
+  width: 638px;
+  height: 479px;
+}
+
+form label {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #eb5757;
+}
+
+form input,
+textarea {
+  width: 80%;
+  height: 54px;
+  padding-left: 16px;
+  border-radius: 4px;
+  gap: 8px;
+  border: 1px solid #2222220d;
+  margin-bottom: 32px;
+  box-shadow: 0px 0px 40px 0px #0000000d;
+}
+
+form #msg {
+  height: 139px;
+}
+
+form a {
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 39px 0;
+}
+
+.footerShadow {
+  box-shadow: 0px -2px 4px 0px #c0c0c01a;
+}
+
+footer .logo {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footerNav ul {
+  display: flex;
+  gap: 63px;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+.footerNav ul li a {
+  text-decoration: none;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+/* Responsiveness */
+@media (max-width: 960px) {
+  .container {
+    max-width: 718px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav .burger {
+    display: block;
+  }
+
+  h1 {
+    font-family: Lato;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .artistGallery {
+    gap: 50px;
+    justify-content: flex-start;
+  }
+
+  .photoGallery .photoItem {
+    width: 212px;
+  }
+
+  .photoGallery .photoItem img {
+    background-size: cover;
+    width: 212px;
+  }
+
+  .tickets {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .map {
+    width: 720px;
+    height: 443px;
+    background-size: cover;
+    background-position: center;
+    margin: 43px auto;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 55px;
+  }
+
+  .contactInfo {
+    width: 411px;
+    margin: auto;
+  }
+
+  form {
+    width: 100%;
+    height: 100%;
+  }
+
+  .formPadding {
+    padding-top: 5rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 475px) {
+  .artistGallery {
+    align-items: center;
+    /* gap: 36px; */
+    flex-direction: column;
+  }
+
+  .artist {
+    padding-bottom: 0;
+  }
+
+  .map {
+    width: 343px;
+    height: 443px;
+  }
+}
