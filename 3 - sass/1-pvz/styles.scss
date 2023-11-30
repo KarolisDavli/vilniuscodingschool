@@ -1,0 +1,121 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background: #222;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    color: #f8f8f8;
+    text-decoration: none;
+    transition: 0.2s all;
+    &:hover {
+      color: orange;
+    }
+  }
+
+  .brand {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  ul.links {
+    margin: 0;
+    padding: 0;
+
+    .link {
+      display: inline-block;
+      list-style-type: none;
+      margin-left: 20px;
+    }
+  }
+}
+
+header {
+  height: 400px;
+  background-color: darkcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .content {
+    max-width: 400px;
+
+    h1 {
+      text-transform: uppercase;
+    }
+
+    .buttons {
+      .btn {
+        display: inline-block;
+        // background: red;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        transition: 0.2s all;
+
+        &.btn-primary {
+          background: green;
+          color: white;
+          &:hover {
+            background: white;
+            color: green;
+          }
+        }
+        &.btn-secondary {
+          background: white;
+          color: green;
+          &:hover {
+            background: green;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: #f8f8f8;
+  padding: 30px;
+
+  article {
+    width: calc((100% - 2 * 20px) / 3);
+    box-sizing: border-box;
+    background: white;
+    padding: 25px;
+
+    @media only screen and (max-width: 800px) {
+      width: calc((100% - 20px) / 2);
+    }
+
+    @media only screen and (max-width: 450px) {
+      width: 100%;
+    }
+  }
+}
+
+// css:
+// .blokas:hover .mygtukas {}
+
+// sass:
+// .blokas {
+//     &:hover {
+//         .mygtukas {}
+//     }
+// }
+
+// .blokas {
+//     &:hover .mygtukas {
+//     }
+// }

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Box Model</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="nav-flex">
+          <div class="logo">Automobiliu <span>nuoma</span></div>
+          <ul>
+            <li class="selected">link 1</li>
+            <li>link 2</li>
+            <li>link 3</li>
+            <li>link 4</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="hero" class="hero">
+      <div id="custom_left" class="hero-left">
+        <h1>Sugedo masina?</h1>
+        <p>Mes jums padesime.</p>
+        <div class="hero-buttons">
+          <a class="btn cta" href="#">Ziureti automobilius</a>
+          <a class="btn secondary" href="#">Susisiekti</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-img"></div>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <div class="container">
+        <p>
+          Automobilių nuoma yra populiari paslauga, leidžianti žmonėms trumpam
+          laikui naudotis automobiliu. Tai patogus būdas gauti prieigą prie
+          transporto priemonės, kai to reikia, be ilgalaikio įsipareigojimo.
+        </p>
+      </div>
+    </div>
+
+    <div class="gallery-bg">
+      <div class="container">
+        <h2>Naudojami automobiliai</h2>
+        <div class="car-gallery">
+          <div class="car-item">
+            <div class="ix3 car-image"></div>
+            <h3>BMW iX3</h3>
+            <p class="price"><span>80 Eur./ </span>para</p>
+            <div class="car-buttons">
+              <a class="btn cta" href="#">Daugiau</a>
+              <a class="btn secondary" href="#">Susisiekti</a>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="ix car-image"></div>
+            <h3>BMW iX</h3>
+            <p class="price"><span>70 Eur./ </span>para</p>
+            <div class="car-buttons">
+              <a class="btn cta" href="#">Daugiau</a>
+              <a class="btn secondary" href="#">Susisiekti</a>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="rs6 car-image"></div>
+            <h3>Audi RS6</h3>
+            <p class="price"><span>80 Eur./ </span>para</p>
+            <div class="car-buttons">
+              <a class="btn cta" href="#">Daugiau</a>
+              <a class="btn secondary" href="#">Susisiekti</a>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="a1 car-image"></div>
+            <h3>Audi A1</h3>
+            <p class="price"><span>50 Eur./ </span>para</p>
+            <div class="car-buttons">
+              <a class="btn cta" href="#">Daugiau</a>
+              <a class="btn secondary" href="#">Susisiekti</a>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="peugeot car-image"></div>
+            <h3>Peugot 208</h3>
+            <p class="price"><span>60 Eur./ </span>para</p>
+            <div class="car-buttons">
+              <a class="btn cta" href="#">Daugiau</a>
+              <a class="btn secondary" href="#">Susisiekti</a>
+            </div>
+          </div>
+          <div class="car-item">
+            <div class="tiguan car-image"></div>
+            <h3>Vokswagen Tiguan</h3>
+            <p class="price"><span>40 Eur./ </span>para</p>
+            <div class="car-buttons">
+              <a class="btn cta" href="#">Daugiau</a>
+              <a class="btn secondary" href="#">Susisiekti</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer>
+        <p>
+          Automobilių nuoma yra populiari paslauga, leidžianti žmonėms trumpam
+          laikui naudotis automobiliu. Tai patogus būdas gauti prieigą prie
+          transporto priemonės, kai to reikia, be ilgalaikio įsipareigojimo.
+        </p>
+        <ul>
+          <li class="footer-links">Nuorodos</li>
+          <li><a href="#">Automobilinu nuoma</a></li>
+          <li><a href="#">Kontaktai</a></li>
+          <li><a href="#">Privatumo politika</a></li>
+        </ul>
+        <ul>
+          <li class="footer-links">Kontaktai</li>
+          <li>
+            <div class="footer-icon email"></div>
+            <a href="#">info@autonuoma.lt</a>
+          </li>
+          <li>
+            <div class="footer-icon phone"></div>
+            <a href="#">+370 672 752 75</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script>
+      // var containerElement = document.getElementById("hero");
+      // var customLeftElement = document.getElementById("custom_left");
+
+      // var left = containerElement.offsetLeft;
+      // customLeftElement.style.paddingLeft = left + 12 + "rem";
+      (function (window, document, undefined) {
+        window.onload = init;
+
+        function init() {
+          var containerElement = document.getElementById("hero");
+          var customLeftElement = document.getElementById("custom_left");
+
+          var left = containerElement.offsetLeft;
+          customLeftElement.style.marginLeft = left + 32 + "px";
+        }
+        window.addEventListener("resize", init);
+      })(window, document, undefined);
+    </script>
+  </body>
+</html>

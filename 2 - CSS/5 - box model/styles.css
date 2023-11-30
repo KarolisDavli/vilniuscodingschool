@@ -1,0 +1,24 @@
+h2,
+p {
+  margin: 0;
+}
+
+body {
+  background: gray;
+}
+
+.blokas {
+  background: white;
+  margin: 20px auto;
+}
+
+#blokas-1 {
+  width: 300px;
+  padding: 30px;
+}
+
+#blokas-2 {
+  width: 300px;
+  padding: 30px;
+  box-sizing: border-box;
+}

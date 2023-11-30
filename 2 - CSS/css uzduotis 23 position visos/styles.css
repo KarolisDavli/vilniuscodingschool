@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(210, 210, 210);
+}
+
+.card {
+  width: 200px;
+}
+
+.container {
+  width: 960px;
+  margin: 4rem auto;
+}
+
+.full-gray-container {
+  background-color: #e2e1e1;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.photo {
+  width: 200px;
+  height: 125px;
+  position: relative;
+  background-color: brown;
+}
+
+.name {
+  background-color: aliceblue;
+  position: absolute;
+  padding: 1rem;
+  left: 0;
+  bottom: 0;
+}
+
+.text {
+  background-color: antiquewhite;
+  padding: 2rem 1rem;
+}
+
+/* Restaurants */
+
+.food-card {
+  border-radius: 16px;
+  height: 345px;
+  width: 276px;
+}
+
+.food-img {
+  border-radius: 1rem 1rem 0 0;
+  background-image: url("Image (9).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 176px;
+  width: 276px;
+  position: relative;
+}
+
+.date {
+  position: absolute;
+  padding: 1rem 1.2rem;
+  border-radius: 1rem;
+  bottom: 0;
+  right: 1rem;
+  transform: translateY(50%);
+  background-color: white;
+  box-shadow: 0px 1px 4px 0px #60617029, 0px 1px 1px 0px #28293d0a;
+}
+
+.date p {
+  line-height: 1;
+}
+
+.day {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.food-content {
+  background-color: white;
+  padding: 2rem 1rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.food-text {
+  margin: 1rem 0;
+}
+
+.food-links a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+
+.save {
+  background-image: url("positions užduotys/Button.png");
+}
+
+.share {
+  background-image: url("positions užduotys/Button-1.png");
+}
+
+/* =============
+Uzduotis 2
+============== */
+.title {
+  text-align: center;
+}
+
+.preHeader {
+  text-transform: uppercase;
+  color: gray;
+}
+
+.title h1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.parent {
+  position: relative;
+  display: inline-block;
+}
+
+.imgPlaceholder {
+  background-image: url("Star 1.png");
+  width: 32px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 32px;
+  position: absolute;
+  right: -1rem;
+  transform: translateY(-100%);
+}
+
+.afterHeader {
+  color: rgb(83, 83, 83);
+}
