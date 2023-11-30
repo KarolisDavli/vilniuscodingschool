@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Recepciukai</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="content-wrapper">
+        <div class="block-wrapper">
+          <h2>Pasirinkite recepta:</h2>
+          <div class="receptai-wrapper">
+            <div class="receptas pirmas">
+              <img
+                id="tick"
+                class="hidden"
+                src="img/tick.png"
+                alt="green tick"
+              />
+              <img src="img/1.png" alt="vista" />
+              <div class="receptas-text">
+                <h4>Vistiena su salotom</h4>
+                <p>
+                  Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt
+                  risus purus faucibus elit ut. Pellentesque montes.
+                </p>
+              </div>
+            </div>
+
+            <div class="receptas antras">
+              <img
+                id="tick"
+                class="hidden"
+                src="img/tick.png"
+                alt="green tick"
+              />
+              <img src="img/2.png" alt="tortas" />
+              <div class="receptas-text">
+                <h4>Tortas su melynem</h4>
+                <p>
+                  Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt
+                  risus purus faucibus elit ut. Pellentesque montes.
+                </p>
+              </div>
+            </div>
+
+            <div class="receptas trecias">
+              <img
+                id="tick"
+                class="hidden"
+                src="img/tick.png"
+                alt="green tick"
+              />
+              <img src="img/3.png" alt="makarai" />
+              <div class="receptas-text">
+                <h4>Makaronai su mesa</h4>
+                <p>
+                  Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt
+                  risus purus faucibus elit ut. Pellentesque montes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="block-wrapper">
+          <h2>Kiek porciju gaminsite?</h2>
+          <input id="slider" type="range" min="1" max="20" value="1" />
+          <p id="portion-size">1</p>
+        </div>
+
+        <div class="block-wrapper">
+          <h2>Jums reikes siu ingredientu, tokiais kiekiais</h2>
+          <div class="ingridientai"></div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
