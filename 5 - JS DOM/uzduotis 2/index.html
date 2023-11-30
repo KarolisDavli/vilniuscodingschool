@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Spurgyciu kcal skaiciuokle</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header class="block-wrapper">
+        <h1>Spurgyciu kaloriju skaiciuokle</h1>
+      </header>
+
+      <div class="info-wrapper block-wrapper">
+        <h2>Spurgyciu info</h2>
+        <div class="input-wrapper">
+          <label for="spurgytes-kalorijos"
+            >Kiek kaloriju vienoje spurgyteje:</label
+          >
+          <input id="spurgytes-kalorijos" type="number" / min="0" step="1"
+          value="0">
+          <span class="error">Spurgyciu skaicius negali buti neigiamas</span>
+        </div>
+        <div class="input-wrapper">
+          <label for="spurgyciu-suvalgau-per-diena"
+            >Kiek spurgyciu jau suvalgiau siandien:</label
+          >
+          <input id="spurgyciu-suvalgau-per-diena" type="number" / min="0"
+          step="1" value="0">
+          <span class="error"
+            >Suvalgytu spurgyciu skaicius negali buti neigiamas</span
+          >
+        </div>
+        <div class="input-wrapper">
+          <label for="dienos-kaloriju-norma">Dienos kaloriju norma:</label>
+          <input id="dienos-kaloriju-norma" type="number" / min="0" step="1"
+          value="0">
+          <span class="error"
+            >Dienos kaloriju normos skaicius negali buti neigiamas</span
+          >
+        </div>
+
+        <button id="calculate">Skaiciuoti</button>
+        <button id="reset">Skaiciuoti is naujo</button>
+      </div>
+
+      <div class="calc-wrapper block-wrapper">
+        <h2>Skaiciavimai</h2>
+        <div id="results">
+          <p>Nera spurgyciu - nera kaloriju</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

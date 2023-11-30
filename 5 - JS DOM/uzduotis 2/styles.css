@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.main-wrapper {
+  background: url("https://images.unsplash.com/photo-1516919549054-e08258825f80?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+}
+
+.block-wrapper {
+  background-color: #ffe6f7;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px 35px;
+  margin: 35px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.02);
+}
+
+.info-wrapper .input-wrapper {
+  margin: 10px 0;
+}
+
+.info-wrapper .input-wrapper > * {
+  display: block;
+}
+
+.info-wrapper .input-wrapper input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 5px;
+  padding: 7px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.info-wrapper .input-wrapper input.error {
+  border-color: red;
+  background-color: rgb(224, 150, 150);
+}
+
+.info-wrapper .input-wrapper span.error {
+  color: red;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.info-wrapper .input-wrapper span.error:not(.show) {
+  display: none;
+}
+
+.info-wrapper button {
+  padding: 12px 24px;
+  cursor: pointer;
+  background-color: #f3a2da;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
