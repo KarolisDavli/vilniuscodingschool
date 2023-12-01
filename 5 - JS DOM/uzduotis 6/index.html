@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Automobilio konfiguratorius</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="header">
+          <div class="header-text">
+            <h1>Automobilio</h1>
+            <h2>konfiguratorius</h2>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="main-wrapper">
+        <div class="row">
+          <div class="car-img">
+            <img src="img/car.png" alt="image of a car" />
+          </div>
+          <div class="features-selection-column selection-column">
+            <h3>Pagrindinis paketas.</h3>
+            <div id="minimalus" class="selection active-selection">
+              <div class="text-block">
+                <h4>Minimalus</h4>
+                <p>18 000 €</p>
+              </div>
+              <div class="tick-square">
+                <img src="img/tickselected.svg" alt="tick" />
+              </div>
+            </div>
+            <div id="bazinis" class="selection">
+              <div class="text-block">
+                <h4>Bazinis</h4>
+                <p>20 000 €</p>
+              </div>
+              <div class="tick-square hidden">
+                <img src="img/tickselected.svg" alt="tick" />
+              </div>
+            </div>
+            <div id="pilnas" class="selection">
+              <div class="text-block">
+                <h4>Pilnas</h4>
+                <p>25 000 €</p>
+              </div>
+              <div class="tick-square hidden">
+                <img src="img/tickselected.svg" alt="tick" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="colors-selection-column selection-column">
+            <h3>Spalva.</h3>
+            <div class="spalvu-selection">
+              <div class="spalvu-col">
+                <div class="selection active-selection">
+                  <div class="color-with-text">
+                    <div class="color-selection black"></div>
+                    <div class="text-block">
+                      <h4>Juoda</h4>
+                      <p>+ 0 €</p>
+                    </div>
+                  </div>
+                  <div class="tick-square">
+                    <img src="img/tickselected.svg" alt="tick" />
+                  </div>
+                </div>
+                <div class="selection">
+                  <div class="color-with-text">
+                    <div class="color-selection pilka"></div>
+                    <div class="text-block">
+                      <h4>Pilka</h4>
+                      <p>+ 0 €</p>
+                    </div>
+                  </div>
+                  <div class="tick-square hidden">
+                    <img src="img/tickselected.svg" alt="tick" />
+                  </div>
+                </div>
+                <div class="selection">
+                  <div class="color-with-text">
+                    <div class="color-selection balta"></div>
+                    <div class="text-block">
+                      <h4>Balta</h4>
+                      <p>+ 0 €</p>
+                    </div>
+                  </div>
+                  <div class="tick-square hidden">
+                    <img src="img/tickselected.svg" alt="tick" />
+                  </div>
+                </div>
+              </div>
+              <div class="spalvu-col">
+                <div class="selection">
+                  <div class="color-with-text">
+                    <div class="color-selection raudona"></div>
+                    <div class="text-block">
+                      <h4>Raudona</h4>
+                      <p>+ 100 €</p>
+                    </div>
+                  </div>
+                  <div class="tick-square hidden">
+                    <img src="img/tickselected.svg" alt="tick" />
+                  </div>
+                </div>
+                <div class="selection">
+                  <div class="color-with-text">
+                    <div class="color-selection zalia"></div>
+                    <div class="text-block">
+                      <h4>Zalia</h4>
+                      <p>+ 300 €</p>
+                    </div>
+                  </div>
+                  <div class="tick-square hidden">
+                    <img src="img/tickselected.svg" alt="tick" />
+                  </div>
+                </div>
+                <div class="selection">
+                  <div class="color-with-text">
+                    <div class="color-selection melyna"></div>
+                    <div class="text-block">
+                      <h4>Melyna</h4>
+                      <p>+ 200 €</p>
+                    </div>
+                  </div>
+                  <div class="tick-square hidden">
+                    <img src="img/tickselected.svg" alt="tick" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="features-selection-column selection-column">
+            <h3>Variklis.</h3>
+            <div id="benzinas" class="selection active-selection">
+              <div class="text-block">
+                <h4>Benzinas</h4>
+                <p>+ 0 €</p>
+              </div>
+              <div class="tick-square">
+                <img src="img/tickselected.svg" alt="tick" />
+              </div>
+            </div>
+            <div id="dyzelis" class="selection">
+              <div class="text-block">
+                <h4>Dyzelinas</h4>
+                <p>+ 2 000 €</p>
+              </div>
+              <div class="tick-square hidden">
+                <img src="img/tickselected.svg" alt="tick" />
+              </div>
+            </div>
+            <div id="elektra" class="selection">
+              <div class="text-block">
+                <h4>Elektra</h4>
+                <p>+ 5 000 €</p>
+              </div>
+              <div class="tick-square hidden">
+                <img src="img/tickselected.svg" alt="tick" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

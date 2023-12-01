@@ -1,0 +1,163 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+nav {
+  background-image: url(img/navbg.png);
+  height: 265px;
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: 800;
+}
+
+h4 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  padding-bottom: 8px;
+}
+
+.header {
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+}
+
+.main-wrapper {
+  background-color: white;
+  padding-top: 96px;
+}
+
+.row {
+  display: flex;
+  max-width: 1128px;
+  margin: auto;
+  margin-bottom: 16px;
+  gap: 32px;
+}
+
+.selection-column {
+  box-shadow: 2px 3px 11.600000381469727px 0px #0000001a;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.features-selection-column {
+  width: 387px;
+}
+
+.colors-selection-column {
+  width: 709px;
+}
+
+.spalvu-selection {
+  display: flex;
+  gap: 16px;
+}
+
+.spalvu-col {
+  display: flex;
+  flex-direction: column;
+  width: 314px;
+  gap: 8px;
+}
+
+.selection {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+}
+
+.active-selection {
+  border: 2px solid #189af8;
+  background-color: rgba(24, 154, 248, 0.05);
+}
+
+.selection p {
+  margin: 0;
+  color: #999999;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.color-with-text {
+  display: flex;
+  gap: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+.color-selection {
+  height: 54px;
+  width: 54px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.black {
+  background-color: black;
+}
+
+.pilka {
+  background-color: #d9d9d9;
+}
+
+.balta {
+  background-color: #fdfdfd;
+}
+
+.raudona {
+  background-color: #dc1313;
+}
+
+.zalia {
+  background-color: #5a6b3a;
+}
+
+.melyna {
+  background-color: #124099;
+}
