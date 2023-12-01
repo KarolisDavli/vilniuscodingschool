@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sandeliukas</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="tabs">
+        <div id="tab1" class="tab tab-active">1 Sandelio aukstas</div>
+        <div id="tab2" class="tab">2 Sandelio aukstas</div>
+        <div id="tab3" class="tab">Administracines patalpos</div>
+      </div>
+
+      <!-- Pirmas sandelio aukstas -->
+      <div class="content-wrapper">
+        <div id="content1" class="selected">
+          <div class="column">
+            <table>
+              <tr class="table-header">
+                <th>Sandelio zona</th>
+                <th>Sandelio plotas, kv. m</th>
+                <th>Rampos</th>
+              </tr>
+              <tr class="table-underline">
+                <td>B</td>
+                <td>6 963,29</td>
+                <td>5 rampos</td>
+              </tr>
+              <tr class="table-underline">
+                <td>C</td>
+                <td>3 371,05</td>
+                <td>5 rampos</td>
+              </tr>
+              <tr class="table-underline">
+                <td>D</td>
+                <td>3 300,79</td>
+                <td>5 rampos bei 1 šoninė</td>
+              </tr>
+              <tr class="table-underline">
+                <td>E</td>
+                <td class="special-one" colspan="2">
+                  17,24 (bendrosios buitinės patalpos)
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="column">
+            <img src="img/pirmas.png" alt="pirmas aukstas" />
+          </div>
+        </div>
+        <div id="content2" class="hidden">
+          <div class="column">
+            <table>
+              <tr class="table-header">
+                <th>Sandelio zona</th>
+                <th>Socialinės patalpos antresolėse, kv. m</th>
+                <th>Rezervinis plotas antresolėse, kv. m</th>
+              </tr>
+              <tr class="table-underline">
+                <td>B</td>
+                <td>92,92</td>
+                <td>578,50</td>
+              </tr>
+              <tr class="table-underline">
+                <td>C</td>
+                <td>151,04</td>
+                <td>390,46</td>
+              </tr>
+              <tr class="table-underline">
+                <td>D</td>
+                <td>151,78</td>
+                <td>390,46</td>
+              </tr>
+            </table>
+          </div>
+          <div class="column">
+            <img src="img/antras.png" alt="pirmas aukstas" />
+          </div>
+        </div>
+        <div id="content3" class="hidden">
+          <div class="image">
+            <img src="img/trecias.png" alt="pirmas aukstas" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
